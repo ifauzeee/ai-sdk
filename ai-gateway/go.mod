@@ -4,20 +4,20 @@ go 1.26.3
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
-	github.com/anthropics/anthropic-sdk-go v1.80.0
+	github.com/anthropics/anthropic-sdk-go v1.82.0
 	github.com/go-jose/go-jose/v4 v4.1.6
 	github.com/grafana/agento11y/go v0.19.0
 	github.com/grafana/ai-sdk v0.1.0-alpha.1.0.20260928202004-dd43c6dff058
-	github.com/grafana/ai-sdk/middleware/agentobservability v0.0.0-20260928202004-dd43c6dff058
-	github.com/grafana/ai-sdk/middleware/logger v0.0.0-20260928202004-dd43c6dff058
-	github.com/grafana/ai-sdk/middleware/prometheus v0.0.0-20260928202004-dd43c6dff058
-	github.com/grafana/ai-sdk/providers/anthropic v0.0.0-20260928202004-dd43c6dff058
-	github.com/grafana/ai-sdk/providers/grafana v0.0.0-20260928202004-dd43c6dff058
-	github.com/grafana/ai-sdk/providers/openai v0.0.0-20260928202004-dd43c6dff058
-	github.com/grafana/ai-sdk/providers/openai-compatible v0.0.0-20260928202004-dd43c6dff058
+	github.com/grafana/ai-sdk/middleware/agentobservability v0.1.0-alpha.1
+	github.com/grafana/ai-sdk/middleware/logger v0.1.0-alpha.1
+	github.com/grafana/ai-sdk/middleware/prometheus v0.1.0-alpha.1
+	github.com/grafana/ai-sdk/providers/anthropic v0.1.0-alpha.1
+	github.com/grafana/ai-sdk/providers/grafana v0.1.0-alpha.1
+	github.com/grafana/ai-sdk/providers/openai v0.1.0-alpha.1
+	github.com/grafana/ai-sdk/providers/openai-compatible v0.1.0-alpha.1
 	github.com/grafana/authlib v0.0.0-20260814184937-0d62418c2815
 	github.com/grafana/authlib/types v0.0.0-20260814184937-0d62418c2815
-	github.com/openai/openai-go/v3 v3.76.0
+	github.com/openai/openai-go/v3 v3.79.0
 	github.com/prometheus/client_golang v1.25.0
 	github.com/santhosh-tekuri/jsonschema/v6 v6.0.3
 	github.com/stretchr/testify v1.12.1
@@ -74,7 +74,7 @@ require (
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 	golang.org/x/time v0.16.0 // indirect
-	google.golang.org/api v0.301.0 // indirect
+	google.golang.org/api v0.304.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20261012220534-4341edf3f941 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 )
